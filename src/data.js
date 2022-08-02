@@ -74,11 +74,11 @@ export const WISfeatures = [
   {
     id: 2,
     heading: "Knowledgebase",
-    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae nisi t.",
+    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae nisi t. Lorem ipsum dolor sit amet.",
   },
   {
     id: 3,
     heading: "Education",
-    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae nisi t. ",
+    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae, Lorem, ipsum dolor. ",
   },
 ];

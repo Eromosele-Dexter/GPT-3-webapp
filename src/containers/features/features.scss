@@ -1,0 +1,70 @@
+.Features {
+  margin-top: 5rem;
+  .container {
+    .features-heading {
+      h1 {
+        font-size: 1.8rem;
+        line-height: 2.4rem;
+      }
+      p {
+        font-weight: 500;
+        font-size: 1.1rem;
+        line-height: 1.8rem;
+        color: #ff8a71;
+        margin: 3.5rem 0;
+      }
+    }
+
+    .features-container {
+      .Feature {
+        display: flex;
+        margin-bottom: 2rem;
+        .feature-title {
+          max-width: 7rem;
+          margin-right: 1.5rem;
+
+          h1 {
+            width: 105%;
+            margin-right: 5rem;
+
+            &:before {
+              top: -0.8rem;
+            }
+          }
+        }
+        .feature-text {
+          //   width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .Features {
+    .container {
+      display: flex;
+      .features-heading {
+        h1 {
+          font-size: 1.8rem;
+          line-height: 2.8rem;
+        }
+        p {
+          font-size: 1.3rem;
+        }
+      }
+      .features-container {
+        .Feature {
+          .feature-title {
+            margin-right: 7rem;
+          }
+        }
+      }
+
+      .features-heading {
+        max-width: 37%;
+        margin-right: 10%;
+      }
+    }
+  }
+}
