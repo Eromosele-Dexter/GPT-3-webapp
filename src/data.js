@@ -2,7 +2,7 @@ import { google, slack, atlassian, dropbox, shopify } from "./assets";
 
 export const heroHeading = "Let's Build something amazing with GPT-3 OpenAI";
 export const heroText =
-  "Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.";
+  "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi voluptates dolore nihil cum vitae, dignissimos sit culpa, praesentium atque earum vero nam optio consequuntur at.";
 
 export const links = [
   {
@@ -62,23 +62,23 @@ export const brands = [
 
 export const WISmainFeature = {
   heading: "What is GPT_3",
-  text: "We so opinion friends me message as delight. Whole front do of plate heard oh ought. His defective nor convinced residence own. Connection has put impossible own apartments boisterous. At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.",
+  text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus corrupti sunt rerum modi quos dolor maiores consectetur neque, consequatur maxime itaque laboriosam in voluptate distinctio debitis doloribus impedit enim laudantium provident eum architecto magnam minima!",
 };
 
 export const WISfeatures = [
   {
     id: 1,
     heading: "Chatbots",
-    text: "We so opinion friends me message as delight. Whole front do of plate heard oh ought.",
+    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae nisi t.",
   },
   {
     id: 2,
     heading: "Knowledgebase",
-    text: "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.",
+    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae nisi t.",
   },
   {
     id: 3,
     heading: "Education",
-    text: "At jointure ladyship an insisted so humanity he. Friendly bachelor entrance to on by.  ",
+    text: " Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repudiandae nisi t. ",
   },
 ];
