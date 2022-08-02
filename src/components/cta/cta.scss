@@ -1,0 +1,68 @@
+.CTA {
+  .container {
+    background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+    border: 1px solid #000000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10.7236px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.875rem;
+  }
+  .cta-content {
+    p,
+    h3 {
+      color: #000000;
+    }
+    p {
+      font-weight: 500;
+      font-size: 0.75rem;
+      line-height: 2rem;
+    }
+
+    h3 {
+      font-weight: 800;
+      font-size: 1.5rem;
+      line-height: 2.875rem;
+    }
+  }
+
+  .cta-btn {
+    button {
+      border: none;
+      outline: none;
+      font-weight: 700;
+      font-size: 1.1rem;
+      line-height: 1.8rem;
+      background: #000000;
+      border-radius: 5rem;
+      padding: 0.5rem 1.3rem;
+
+      max-width: 11.8rem;
+      max-height: 3.75rem;
+      margin-top: 10%;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .CTA {
+    .container {
+      flex-direction: column;
+
+      .cta-content {
+        h3 {
+          font-size: 1.1rem;
+          line-height: 2rem;
+        }
+      }
+
+      .cta-btn {
+        button {
+          font-size: 0.8rem;
+          line-height: 1.4rem;
+        }
+      }
+    }
+  }
+}
