@@ -124,3 +124,15 @@ section {
     margin: 4rem 2rem;
   }
 }
+
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 20px;
+  }
+}
